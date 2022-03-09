@@ -40,8 +40,9 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(129, 202, 224);
-  }
+    background-color: aquamarine;
+position: relative;  
+}
   
   li {
 float: left;    }
@@ -54,14 +55,17 @@ float: left;    }
     margin-right: 5px ;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: 3px;
   }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(190, 126, 126);
+   ul .socialIcons li:hover{
+    background-color: gray;
+  }
+  ul .active:hover{
+    background-color: blue;
   }
   
   .active {
-    background-color: #43596e;
+    background-color: gray;
   }
   .skcFont {
     text-decoration: solid;
@@ -70,8 +74,8 @@ float: left;    }
   }
 
   #body{
-      background-color: lightgray;
-  }
+     background-image: linear-gradient(to bottom ,rgba(78, 14, 255, 0.712) ,rgba(255, 49, 186, 0.836)); 
+}
        /* Tab content - closed */
        .tab-content {
         max-height: 0;
@@ -148,4 +152,19 @@ border-radius: 10px;
 
     .accordian_big_cover{
         border-radius: 10px;
-    }
+
+  }
+
+  .text-base{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+font-weight: 600;
+}
+
+.head-font{
+}
+
+.typewriter{
+  color: aqua;
+}
