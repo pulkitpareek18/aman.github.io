@@ -167,10 +167,15 @@ ul .active:hover {
   text-align: center;
 }
 
+.banner-img{
+  border-radius: 10px;
+}
+
 .banner{
   border-radius: 10px;
   height: 16rem;
 }
+
 @media only screen and (max-width: 500px) {
   .banner{
 height: fit-content; 
