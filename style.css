@@ -176,6 +176,37 @@ ul .active:hover {
   height: 16rem;
 }
 
+
+
+.btn-custom{
+  border: pink;
+  border-style: ridge;
+  padding: 11px;
+  border-radius: 11px;
+  color: #4051a3;
+  font-size: larger;
+  font-family: cursive;
+  font-weight: 700;
+  background-color: #ff4efd;
+  margin-top: 3vw;
+}
+
+.btn-custom:hover{
+background-image: initial;
+color: aqua;
+}
+
+
+
+
+.resume{
+  margin-left: 5vw;
+}
+
+.banner-1{
+  width: 25vw;
+  margin: auto;
+}
 @media only screen and (max-width: 500px) {
   .banner{
 height: fit-content; 
@@ -183,6 +214,11 @@ height: fit-content;
   .socialIcons {
     text-align: center;
     float: right;
+    
+  }
+
+  .socialIcons li a{
+    padding: 9px 6px;
   }
   .active {
     padding: 10px;
@@ -200,9 +236,18 @@ height: fit-content;
   .top-img{
     height: 38px;
     margin-top: auto;
+    margin-bottom: 10px;
   }
+  
   .header-img{
     margin-top: 11px;
   }
-}
 
+  .btn-custom{
+    margin-top: 7vw;
+  }
+
+  .banner-1{
+    width: 74vw;
+  }
+}
