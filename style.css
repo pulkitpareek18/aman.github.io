@@ -214,6 +214,7 @@ height: fit-content;
   .socialIcons {
     text-align: center;
     float: right;
+    MARGIN-TOP: 5PX;
     
   }
 
@@ -257,6 +258,7 @@ height: fit-content;
 
   .socialIcons li a{
     padding: 9px 4px;
+    
   }
 }
 
